@@ -1,0 +1,42 @@
+.sidebar {
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.category-name {
+    font-weight: lighter;
+    color: #555;
+}
+
+.category-checkbox {
+    color: #888;
+}
+
+.loading-message,
+.error-message,
+.empty-message {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+}
